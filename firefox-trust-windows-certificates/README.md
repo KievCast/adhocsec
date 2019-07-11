@@ -1,4 +1,6 @@
-# adhocsec
+# Configuring Firefox to use the Windows Certificate Store via GPO
+
+https://adhocsec.com/control-firefox-ca-gpo/
 
 Let's say that you were deploying a Certificate that needed to be trusted in your 1000+ endpoint domain. You deploy it through conventional means, and everything works in IE, Edge, Chrome, even Safari and Opera! But Firefox? Nope, although Firefox does come with the setting to trust the Windows Certificate Store it doesn't come enabled by default. 
 
@@ -48,5 +50,6 @@ Firefox relies on those two files to set the preferences. So any way you can dis
 
 Until next time! - Kevin
 
-[windowsstore.cfg](){:target="_blank"}
-[local-settings.js](){:target="_blank"}
+
+[windowsstore.cfg](https://github.com/KievCast/adhocsec/blob/master/firefox-trust-windows-certificates/windowsstore.cfg){:target="_blank"}  
+[local-settings.js](https://raw.githubusercontent.com/KievCast/adhocsec/master/firefox-trust-windows-certificates/local-settings.js){:target="_blank"}  
